@@ -31,9 +31,9 @@
         	<ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="deploy" inheritAll="true"/>
 	</target>
 
-        <target name="test" depends="">
+     <!--   <target name="test" depends="">
         	<ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="test" inheritAll="true"/>
-	</target>
+	</target> -->
 	
 </project>
 
