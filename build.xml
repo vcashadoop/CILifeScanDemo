@@ -19,9 +19,9 @@
         <property name="jenkinsReportDir" value="${workspace.dir}/report"/>
 
 
-	<!--<target name="buildDeployTest" depends="">
+	<target name="buildDeployTest" depends="">
         	<ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="buildDeployTest" inheritAll="true"/>
-	</target>-->
+	</target>
 
         <target name="build" depends="">
         	<ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="build" inheritAll="true"/>
@@ -31,9 +31,9 @@
         	<ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="deploy" inheritAll="true"/>
 	</target>
 
-     <!--   <target name="test" depends="">
+     <target name="test" depends="">
         	<ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="test" inheritAll="true"/>
-	</target> -->
+	</target>
 	
 </project>
 
