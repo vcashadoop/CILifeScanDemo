@@ -10,14 +10,4 @@
             </expected>
         </service>
     </webMethodsTestCase>
-    <webMethodsTestCase name="Failure">
-        <service folder="Fibonachi.services" name="getFibunachiNumber">
-            <input>
-                <file filename="resources/test/xml/data/fibWrongInput.xml"/>
-            </input>
-            <expected>
-                <exception class="com.wm.lang.flow.FlowException" message="The fibunachi series start from 0."/>
-            </expected>
-        </service>
-    </webMethodsTestCase>
 </webMethodsTestSuite>
