@@ -9,14 +9,16 @@
   </record>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="Fibonachi">1.0</value>
+  </record>
   <value name="listACL">Default</value>
   <value name="webappLoad">yes</value>
   <value name="name">Toll</value>
-  <value name="build"></value>
+  <value name="build">1.0.4</value>
   <value name="description"></value>
-  <value name="time">2019-03-11 10:04:48 IST</value>
-  <value name="jvm_version">1.8.0_181</value>
-  <value name="publisher">MCVIVK01.eur.ad.sag</value>
+  <value name="time">2020-08-29 15:56:09 IST</value>
+  <value name="jvm_version">1.8.0_221</value>
+  <value name="publisher">SAG-3KL7QC2.eur.ad.sag</value>
   <value name="patch_nums"></value>
 </Values>

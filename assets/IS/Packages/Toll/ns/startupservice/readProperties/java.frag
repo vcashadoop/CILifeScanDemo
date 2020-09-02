@@ -2,6 +2,13 @@
 
 <Values version="2.0">
   <value name="name">readProperties</value>
+  <array name="sig" type="value" depth="1">
+    <value>[o] field:0:required url</value>
+    <value>[o] field:0:required username</value>
+    <value>[o] field:0:required password</value>
+    <value>[o] field:0:required fileformat</value>
+  </array>
+  <value name="sigtype">java 3.5</value>
   <value name="encodeutf8">true</value>
   <value name="body">CUlucHV0U3RyZWFtIGlucHV0U3RyZWFtID1udWxsOw0KdHJ5IHsNCglQcm9wZXJ0aWVzIHByb3Ag
 PSBuZXcgUHJvcGVydGllcygpOw0KCVN0cmluZyBwcm9wRmlsZU5hbWUgPSAiZ2xvYmFsdmFyaWFi
@@ -21,5 +28,5 @@ IHBhc3N3b3JkICk7DQoJSURhdGFVdGlsLnB1dCggcGlwZWxpbmVDdXJzb3IsICJmaWxlZm9ybWF0
 IiwgZmlsZWZvcm1hdCApOw0KCXBpcGVsaW5lQ3Vyc29yLmRlc3Ryb3koKTsNCn0gY2F0Y2ggKEV4
 Y2VwdGlvbiBlKSB7DQoJDQp9IGZpbmFsbHkgew0KCXRyeSB7DQoJCWlucHV0U3RyZWFtLmNsb3Nl
 KCk7DQoJfSBjYXRjaCAoSU9FeGNlcHRpb24gZSkgew0KCQkvLyBUT0RPIEF1dG8tZ2VuZXJhdGVk
-IGNhdGNoIGJsb2NrCQkNCgl9DQp9</value>
+IGNhdGNoIGJsb2NrCQkNCgl9DQp9DQo=</value>
 </Values>
